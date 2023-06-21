@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <input type="password" [(ngModel)]="password" (input)="getPasswordColor(1)" placeholder="Enter password">
+  <input type="password" [(ngModel)]="password" (input)="getPasswordColor(0)" placeholder="Enter password">
   <div class="strength-section" [ngStyle]="{ 'background-color': getPasswordColor(0) }"></div>
   <div class="strength-section" [ngStyle]="{ 'background-color': getPasswordColor(1) }"></div>
   <div class="strength-section" [ngStyle]="{ 'background-color': getPasswordColor(2) }"></div>
