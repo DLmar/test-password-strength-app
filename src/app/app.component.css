@@ -1,0 +1,22 @@
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.strength-section {
+  width: 30px;
+  height: 10px;
+  margin-left: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
